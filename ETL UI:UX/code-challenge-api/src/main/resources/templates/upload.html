@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<form th:action="@{/process}" method="POST">
+    <div class="custom-file">
+        <input type="file" name="myFile" class="custom-file-input" id="customFileLang">
+        <label class="custom-file-label" for="customFileLang">Select file </label>
+    </div>
+    <div>
+        <br><button type="submit" class="btn btn-success">Upload</button>
+    </div>
+</form>
+</body>
+</html>
