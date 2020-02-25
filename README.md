@@ -1,6 +1,6 @@
 Hi there,
 This is Abdu Endris.
-I have solved all the challenges within two days (the whole weekend).
+I have solved all the challenges within two days (weekend).
 
 As it is allowed to restructure the project I have done some modification.
 
